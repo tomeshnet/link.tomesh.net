@@ -89,7 +89,7 @@ if ($link == "redit.php" || $link == "" ) $link = $msg = "";
         }
     </style>
     <div class="Selection">
-        <h1>HYPHA</h1>
+        <h1>Toronto Mesh</h1>
         <label for="files">Short Link Redirector</label>
         <br/>
         <br/>
