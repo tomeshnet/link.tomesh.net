@@ -3,7 +3,7 @@
 $link = $_REQUEST['link'];
 
 $tolink = "";
-$csv = file_get_contents("https://raw.githubusercontent.com/hyphacoop/configurations/master/hyphacoop/shortlinks/shortlinks.csv");
+$csv = file_get_contents("https://github.com/tomeshnet/toronto-community-network/blob/master/communications/shortlinks.csv");
 
 $lines = explode("\n", $csv);
 foreach ($lines as $line) {
@@ -36,7 +36,7 @@ if ($link == "redit.php" || $link == "" ) $link = $msg = "";
         body {
             width: 100%;
             height: 100%;
-            background: #9900fc;
+            background: #000000;
             color: white;
             font-family: 'WorkSans', helvetica, sans-serif;
             padding:0;
