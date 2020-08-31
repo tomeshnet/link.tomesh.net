@@ -25,7 +25,7 @@ if ($link == "redit.php" || $link == "" ) $link = $msg = "";
 <html>
 
 <head>
-    <title>Hypha Link Redirector</title>
+    <title>Toronto Mesh Link Redirector</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.27/jquery.autocomplete.min.js"></script>
 </head>
