@@ -3,7 +3,7 @@
 $link = $_REQUEST['link'];
 
 $tolink = "";
-$csv = file_get_contents("https://github.com/tomeshnet/toronto-community-network/blob/master/communications/shortlinks.csv");
+$csv = file_get_contents("https://raw.githubusercontent.com/tomeshnet/toronto-community-network/master/communications/shortlinks.csv");
 
 $lines = explode("\n", $csv);
 foreach ($lines as $line) {
